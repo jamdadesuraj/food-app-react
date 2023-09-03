@@ -33,7 +33,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: #010103;
+  background: #010103 !important;
   overflow-x: hidden;
 }
 
@@ -55,13 +55,13 @@ section {
 }
 
 .btn {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 0.9rem 3rem;
-  font-size: 1.7rem;
-  color: #fff;
-  background: #ffc107;
-  cursor: pointer;
+  margin-top: 1rem !important;
+  display: inline-block !important;
+  padding: 0.9rem 3rem !important;
+  font-size: 1.7rem !important;
+  color: #fff !important;
+  background: #ffc107 !important;
+  cursor: pointer !important;
 }
 
 .btn:hover {
@@ -90,6 +90,7 @@ section {
   margin: 0 1rem;
   font-size: 1.6rem;
   color: #fff;
+  text-decoration: none;
 }
 
 .header .navbar a:hover {
@@ -210,7 +211,7 @@ section {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
-    url(./assets/home-img) no-repeat;
+    url(../home-img) no-repeat;
   background-size: cover;
   background-position: center;
 }
